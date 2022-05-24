@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  background-color: grey;
+  padding: 50px;
+}
+.container{
+  height: 90vh;
+  width: 70vw;
+  margin: auto;
+  border:solid 2px red;
+  display:flex;
+  border-radius: 5px;
+
+}
+.left{
+  height: 100%;
+  border: blue 1px solid;
+  flex-grow:1;
+}
+.right{
+  height: 100%;
+  border: blue 1px solid;
+  flex-grow:2;
+
+}
