@@ -5,14 +5,12 @@
 body {
   margin: 0;
   background-color: grey;
-
 }
 
 .container {
-  height:100vh;
+  height: 100vh;
   width: 1440px;
   /* max-width: 100vw; */
-
   margin: auto;
   border: solid 2px red;
   display: flex;
@@ -21,7 +19,7 @@ body {
 
 .left {
   height: 100%;
-  width:540px;
+  width: 540px;
   background-image: url("pic/tech.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,8 +32,8 @@ body {
 }
 
 .right {
-height: 100%;
- width:900px;
+  height: 100%;
+  width: 900px;
 }
 
 .right-cont {
@@ -46,30 +44,60 @@ height: 100%;
 
 .top {
   border: solid black 1px;
-  padding:50px 30px 15px;
+  /* padding:50px 30px 15px; */
   height: calc(100%/3);
   background-color: rgb(231, 231, 235);
 }
-.line-top{
-  width:700px;
 
-  margin: 60px 0 0 15px;
+.line-top {
+  width: 700px;
+  border: solid black 1px;
+  margin: 20px 0 0 15px;
 }
-.line-top p{
-    font-family: 'Manrope', sans-serif;
-    font-size: 1.3rem;
-    font-weight: bolder;
+
+.line-top p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bolder;
 }
+
 .middle {
   border: solid black 1px;
   height: calc(100%/3);
-
+  font-family: 'Manrope', sans-serif;
 }
+
+.form-line {
+  width: 700px;
+  border: solid black 1px;
+  margin: 20px 0 0 15px;
+}
+
+.form-line p {
+  margin: 0 0 10px 0;
+
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.first{
+  display: block;
+}
+.form-cont{
+  display: flex;
+}
+.label{
+  font-size:.7rem;
+  border-radius: 10px;
+}
+.form-elem{
+  margin: 5px 50px 5px 0;
+}
+
 
 .bottom {
   border: solid black 1px;
   height: calc(100%/3);
-    background-color: rgb(231, 231, 235);
+  background-color: rgb(231, 231, 235);
 }
 
 .content {
@@ -77,13 +105,12 @@ height: 100%;
   width: 100%;
   background-color: rgba(1, 1, 1, 0.7);
   align-self: center;
-
   text-align: center;
 }
 
 .phone {
   /* margin-top: 50px; */
-  padding:40px;
+  padding: 40px;
   font-size: 1.8rem;
   color: white;
   font-family: 'Manrope', sans-serif;
